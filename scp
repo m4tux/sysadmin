@@ -1,0 +1,6 @@
+#!/bin/bash
+echo " 1 -> local file "
+echo " 2 -> username  "
+echo " 3 -> remote address "
+echo " 4 -> remote directory " 
+scp $1 $2@3:$4
